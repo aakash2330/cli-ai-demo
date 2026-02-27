@@ -1,0 +1,19 @@
+{
+  "name": "orchestrator",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@openrouter/sdk": "^0.9.11",
+    "cac": "^6.7.14"
+  },
+  "bin": {
+    "cli": "./bin/cli.ts"
+  }
+}
